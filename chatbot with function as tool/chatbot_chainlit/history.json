@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "use get weather tool and give me the temprature of Lahore"
+    },
+    {
+        "role": "assistant",
+        "content": "The weather in Lahore is 22 degrees.\n"
+    }
+]
