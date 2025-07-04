@@ -1,0 +1,21 @@
+[project]
+name = "simple-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "TalhaAshfaq", email = "talhaashfaqbodla@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.1.0",
+    "python-dotenv>=1.1.1",
+]
+
+[project.scripts]
+simple-tool = "simple_tool:main"
+my_tool = "simple_tool.agent_tool:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
